@@ -1,0 +1,137 @@
+/* Body */
+*{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+header{
+  background: black;
+  border-bottom: 7px solid yellow;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+header h1{
+  text-align: left;
+  color: yellow;
+  margin: 0;
+  padding: 7px 15px;
+}
+/* Nav */
+nav{
+  margin: 0;
+  padding: 7px;
+}
+nav ul{
+  text-align: right;
+  color: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display: inline-block;
+  color: white;
+  padding: 7px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+/* Main */
+main{
+  margin: 0;
+  padding: 0;
+}
+#mainHeader{
+  background: gray;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  font-style: oblique;
+}
+#mainHeader s{
+  color: darkgray;
+}
+#mainHeader u{
+  text-decoration-color: yellow;
+}
+main img{
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+}
+.bannerContainer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.SideBox{
+  position: absolute;
+  float: right;
+  border: 7px solid yellow;
+  margin: 15px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+.bottomBoxes{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 7px;
+}
+.sideBoxButton{
+  background-color: yellow;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.outterBox{
+  margin: 0px;
+  padding: 10px;
+}
+.medBox{
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  margin: 0;
+  padding: 10px;
+}
+.boxButton{
+  background-color: darkgray;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* Footer */
+footer{
+  background: black;
+  color: white;
+  text-align: left;
+  margin: 0;
+  padding: 2px;
+  bottom: 0;
+  width: 100%;
+}
+footer p{
+  font-size: 13px;
+  margin: 7px;
+  padding: 10px;
+}
