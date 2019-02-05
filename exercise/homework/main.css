@@ -74,7 +74,7 @@ main img{
 }
 .SideBox{
   position: absolute;
-  float: right;
+  right: 0;
   border: 7px solid yellow;
   margin: 15px;
   background-color: #ffffff;
